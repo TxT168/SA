@@ -141,7 +141,7 @@
       <div class="am-u-sm-11 am-u-sm-centered">
         <div class="am-cf am-article">
         	<!-- new blog start -->
-        	<div id="newBlog">
+           <div id="newBlog">
         		<ul class="am-list am-list-border" id="nb_ul"></ul>
         		<div id="pages">
         			<select id="ss"></select>
@@ -156,14 +156,15 @@
 			  <li class="am-active">博客文章</li>
 			</ol>
 			<div class="am-article">
-		    <p class="am-article-meta">发布人：<b id="person"></b>	<a class="am-badge am-badge-primary" title="关注" style="margin-left: 20px;">+</a></p>
-		    <p>
-		    	<span class="am-badge am-badge-default" id="time"></span>
-		    </p>
-		  	<hr/>
-		  	<div><p id="in_content"></p></div>
-			<hr/>
-			<div id="coment_panel"></div>
+			    <p class="am-article-meta">发布人：<b id="person"></b>	<a class="am-badge am-badge-primary" title="关注" style="margin-left: 20px;">+</a></p>
+			    <p>
+			    	<span class="am-badge am-badge-default" id="time"></span>
+			    </p>
+			  	<hr/>
+			  	<div><p id="in_content"></p></div>
+				<hr/>
+				<div id="coment_panel"></div>
+	         </div>
           </div>
           <!-- blog content end -->
           <!-- friends start -->
