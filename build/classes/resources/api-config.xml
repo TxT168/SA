@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<apis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="apis.xsd">
+    <api path = "register">
+        <class>com.lbk.servlet.RegisterAction</class>
+        <method>register</method>
+    </api>
+    <api path = "login">
+        <class>com.lbk.servlet.LoginAction</class>
+        <method>login</method>
+    </api>
+    <api path = "lastestWbArticle">
+        <class>com.lbk.servlet.WeiboAction</class>
+        <method>lastestWbArticle</method>
+    </api>
+    <api path = "pubWeibo">
+        <class>com.lbk.servlet.WeiboAction</class>
+        <method>pubWeibo</method>
+    </api>
+    <api path = "viewWeibo">
+        <class>com.lbk.servlet.WeiboAction</class>
+        <method>viewWeibo</method>
+    </api>
+    <api path = "weibo">
+        <class>com.lbk.servlet.WeiboAction</class>
+        <method>delWeibo</method>
+    </api>
+    <api path = "weibo">
+        <class>com.lbk.servlet.WeiboAction</class>
+        <method>repWeibo</method>
+    </api>
+    <api path = "getFriendVector">
+        <class>com.lbk.servlet.FriendAction</class>
+        <method>getFriendVector</method>
+    </api>
+</apis>
